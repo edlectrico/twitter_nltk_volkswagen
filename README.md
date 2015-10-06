@@ -13,10 +13,12 @@ We have used only two files as inputs for this scenario:
 ### Intermediate scripts:
 * [tweet_preprocessor.py](tweet_preprocessor.py): This script is not directly executable from command line. It is used by the vw_tweet_preprocessor.py script.
 * [language_detector.py](language_detector.py): As the previous one, this script is just used by the vw_tweet_preprocessor.py script.
+
 ### Executable scripts:
 * [vw_tweet_preprocessor.py](vw_tweet_preprocessor.py): This script takes the [vw_clean_en.csv](input/vw_clean_en.csv) input file and re-checks that the text of the tweet is not a RT, is not NULL, and it is writen in English. The output file is stored in [vw_clean_en_rechecked.csv](output/vw_clean_en_rechecked.csv).
 * [parse_cities.py](parse_cities.py): It takes the [cities1000.txt](input/cities1000.txt) file and generates a new [cities_geo.csv](output/cities_geo.csv) with the city name, its coordinates, and its two-digit country code.
 * [vw_geolocate_tweets.py](vw_geolocate_tweets.py): It generates an [vw_clean_en_geo.csv](output/vw_clean_en_geo.csv) file with the tweet and its location.
+
 ### Analysis scripts:
 * [sentiment_train.py](sentiment_train.py): It trains several classification algorithms to choose the best option for the current case.
 * [sentiment_mod.py](sentiment_mod.py): It uses the trained algorithms to classify the corresponding input data.
