@@ -23,6 +23,7 @@ We have used only two files as inputs for this scenario:
 * [sentiment_train.py](sentiment_train.py): It trains several classification algorithms to choose the best option for the current case.
 * [sentiment_mod.py](sentiment_mod.py): It uses the trained algorithms to classify the corresponding input data.
 * [vw_sentiment_classification.py](vw_sentiment_classification.py): FInally, this script takes the [vw_clean_en_rechecked.csv](output/vw_clean_en_rechecked.csv) and uses sentiment_mod to classify the content of the tweet in a positive or negative way.
+* [allwords.py](allwords.py): This script generates an output file with all the words analyzed and the corresponding tweet classification.
 
 ## Necessary packages
 * python3
