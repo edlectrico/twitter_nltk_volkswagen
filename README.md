@@ -4,6 +4,8 @@ This project analyzes the opinions collected from Twitter regarding the volkswag
 
 In this case, the data has been collected using a [Flume agent](http://blog.cloudera.com/blog/2012/10/analyzing-twitter-data-with-hadoop-part-2-gathering-data-with-flume/) (within its [Cloudera Big Data](http://www.cloudera.com/content/cloudera/en/home.html) infrastructure).
 
+![Alt text](http://blog.cloudera.com/wp-content/uploads/2012/10/fig.png "Flume agent collecting tweets from Twitter")
+
 ## Input data
 We have used only two files as inputs for this scenario:
 * [cities1000.txt](input/cities1000.txt): A file downloaded from geonames (as open data) which includes information about each world city with more than 1,000 inhabitants. It includes the city name, its coordinates, and country code name.
