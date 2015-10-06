@@ -1,7 +1,7 @@
 import pandas as pd
 import sys
 
-cities1000 = pd.read_csv('../data/cities1000.txt', sep='\t')
+cities1000 = pd.read_csv('input/cities1000.txt', sep='\t')
 cities_df = pd.DataFrame(data=cities1000)
 
 cities_geo = pd.DataFrame(columns=['city', 'lat', 'lon', 'country_code'])
