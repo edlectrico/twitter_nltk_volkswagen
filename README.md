@@ -29,9 +29,14 @@ We have used only two files as inputs for this scenario:
 
 ### Usage
 * python3 vw_tweet_preprocessor.py en|es
+* python3 parse_cities.py
+* python3 vw_geolocate_tweets.py (this script takes even hours depending on the amount of collected tweets)
+* python3 sentiment_train.py
+* python3 sentiment_mod.py
+* python3 allwords.py
 
 ## Necessary packages
-* python3
+* python3 (obvioysly)
 * pip3 to install the following packages
 * pandas
 * nltk
