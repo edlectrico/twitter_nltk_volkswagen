@@ -11,6 +11,8 @@ We have used only two files as inputs for this scenario:
 * [cities1000.txt](input/cities1000.txt): A file downloaded from geonames (as open data) which includes information about each world city with more than 1,000 inhabitants. It includes the city name, its coordinates, and country code name.
 * [vw_clean_en.csv](input/vw_clean_en.csv): A file which contains all the collected tweets. The file has been processed with [Hive](https://hive.apache.org/) to delete NULLs and to use only tweets in English. However, we'll see that this first "cleaning" process is not enough.
 
+Under the data folder there are a couple of text files containing both positive and negative opinions to perform the training of the classification algorithms.
+
 ## Scripts description and execution order
 ### Intermediate scripts:
 * [tweet_preprocessor.py](tweet_preprocessor.py): This script is not directly executable from command line. It is used by the vw_tweet_preprocessor.py script.
