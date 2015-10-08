@@ -30,12 +30,12 @@ Under the data folder there are a couple of text files containing both positive 
 * [allwords.py](allwords.py): This script generates an output file with all the words analyzed and the corresponding tweet classification.
 
 ### Usage
-* python3 vw_tweet_preprocessor.py en|es
+* python3 preprocess_vw_tweets.py en|es
 * python3 parse_cities.py
-* python3 vw_geolocate_tweets.py (this script takes even hours depending on the amount of collected tweets)
+* python3 geolocate_tweets.py en|es (this script takes even hours depending on the amount of collected tweets)
 * python3 sentiment_train.py
 * python3 sentiment_mod.py
-* python3 allwords.py
+* python3 allwords.py en|es
 
 ## Necessary packages
 * python3 (obvioysly)
